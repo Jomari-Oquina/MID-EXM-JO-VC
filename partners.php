@@ -144,7 +144,7 @@
                     <h2>Be part of a hassle-free experience</h2><br>
                     <p>Step into the effortless future of property management with MAGRENT! Join us to transform coliving in San Francisco, Agusan del sur. List your property, connect with tenants effortlessly, and enjoy a steady income flow!</p>
                 </div>
-                <div class="more-btn centred"><a href="agent-registration" class="theme-btn btn-one">Partner with us</a></div>
+                <div class="more-btn centred"><a href="agent-registration.php" class="theme-btn btn-one">Partner with us</a></div>
         </section>
         <!-- end-of-partner-section -->
 

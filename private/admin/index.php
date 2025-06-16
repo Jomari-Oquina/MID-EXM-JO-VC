@@ -1,7 +1,8 @@
 <?php
-include_once '../../dashboard/admin/authentication/admin-signin.php';
-
+include_once __DIR__ . '../../dashboard/admin/authentication/admin-signin.php';
+include_once __DIR__ . '/correct/relative/path/to/api.php';
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
