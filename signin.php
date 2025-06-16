@@ -160,7 +160,7 @@ include_once 'dashboard/user/authentication/user-signin.php';
         </section>
         <!--End Page Title-->
 
-        <!-- ragister-section -->
+        <!-- register-section -->
         <section class="ragister-section centred sec-pad">
             <div class="auto-container">
                 <div class="row clearfix">
@@ -198,7 +198,7 @@ include_once 'dashboard/user/authentication/user-signin.php';
                                                 <button type="submit" class="theme-btn btn-one" name="btn-signin" onclick="submitForm()">Sign in</button>
                                             </div>
                                         </form>
-                                        <div class="othre-text">
+                                        <div class="othere-text">
                                             <p>Forgot your password? <a href="forgot-password.php">Reset it here</a></p>
                                         </div>
                                     </div>
@@ -239,7 +239,7 @@ include_once 'dashboard/user/authentication/user-signin.php';
                                                 <button type="submit" class="theme-btn btn-one" name="btn-signup" onclick="submitForm()">Sign Up</button>
                                             </div>
                                         </form>
-                                        <div class="othre-text">
+                                        <div class="othere-text">
                                         </div>
                                     </div>
                                 </div>
@@ -249,7 +249,7 @@ include_once 'dashboard/user/authentication/user-signin.php';
                 </div>
             </div>
         </section>
-        <!-- ragister-section end -->
+        <!-- register-section end -->
 
         <!-- main-footer -->
         <footer class="main-footer">
