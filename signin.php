@@ -275,7 +275,7 @@ include_once 'dashboard/user/authentication/user-signin.php';
                                 <div class="widget-content">
                                     <ul class="links-list class">
                                         <li><a href="about-us.php">About Us</a></li>
-                                        <li><a href="find-home">Find Home</a></li>
+                                        <li><a href="find-home.php">Find Home</a></li>
                                         <li><a href="contact-us.php">Contact Us</a></li><a href="">Contact Us</a></li>
                                     </ul>
                                 </div>
@@ -305,8 +305,8 @@ include_once 'dashboard/user/authentication/user-signin.php';
                             <p><?php echo $config->getSystemCopyright() ?></p>
                         </div>
                         <ul class="footer-nav pull-right clearfix">
-                            <li><a href="terms">Terms of Service</a></li>
-                            <li><a href="privacy_policy">Privacy Policy</a></li>
+                            <li><a href="terms.php">Terms of Service</a></li>
+                            <li><a href="privacy_policy.php">Privacy Policy</a></li>
                         </ul>
                     </div>
                 </div>

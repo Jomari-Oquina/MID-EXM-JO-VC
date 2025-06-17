@@ -226,10 +226,10 @@ include_once 'header.php';
                                             <figure class="author-thumb"><img src="../../src/images/feature/author-1.jpg" alt=""></figure>
                                             <h6>Michael Bean</h6>
                                         </div>
-                                        <div class="buy-btn pull-right"><a href="property-details.html">For Buy</a></div>
+                                        <div class="buy-btn pull-right"><a href="property-details.php">For Buy</a></div>
                                     </div>
                                     <div class="title-text">
-                                        <h4><a href="property-details.html">Villa on Grand Avenue</a></h4>
+                                        <h4><a href="property-details.php">Villa on Grand Avenue</a></h4>
                                     </div>
                                     <div class="price-box clearfix">
                                         <div class="price-info pull-left">
@@ -237,8 +237,8 @@ include_once 'header.php';
                                             <h4>$30,000.00</h4>
                                         </div>
                                         <ul class="other-option pull-right clearfix">
-                                            <li><a href="property-details.html"><i class="icon-12"></i></a></li>
-                                            <li><a href="property-details.html"><i class="icon-13"></i></a></li>
+                                            <li><a href="property-details.php"><i class="icon-12"></i></a></li>
+                                            <li><a href="property-details.php"><i class="icon-13"></i></a></li>
                                         </ul>
                                     </div>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing sed.</p>
@@ -247,7 +247,7 @@ include_once 'header.php';
                                         <li><i class="icon-15"></i>2 Baths</li>
                                         <li><i class="icon-16"></i>600 Sq Ft</li>
                                     </ul>
-                                    <div class="btn-box"><a href="property-details.html" class="theme-btn btn-two">See Details</a></div>
+                                    <div class="btn-box"><a href="property-details.php" class="theme-btn btn-two">See Details</a></div>
                                 </div>
                             </div>
                         </div>
@@ -268,10 +268,10 @@ include_once 'header.php';
                                             <figure class="author-thumb"><img src="../../src/images/feature/author-2.jpg" alt=""></figure>
                                             <h6>Robert Niro</h6>
                                         </div>
-                                        <div class="buy-btn pull-right"><a href="property-details.html">For Rent</a></div>
+                                        <div class="buy-btn pull-right"><a href="property-details.php">For Rent</a></div>
                                     </div>
                                     <div class="title-text">
-                                        <h4><a href="property-details.html">Contemporary Apartment</a></h4>
+                                        <h4><a href="property-details.php">Contemporary Apartment</a></h4>
                                     </div>
                                     <div class="price-box clearfix">
                                         <div class="price-info pull-left">
@@ -279,8 +279,8 @@ include_once 'header.php';
                                             <h4>$45,000.00</h4>
                                         </div>
                                         <ul class="other-option pull-right clearfix">
-                                            <li><a href="property-details.html"><i class="icon-12"></i></a></li>
-                                            <li><a href="property-details.html"><i class="icon-13"></i></a></li>
+                                            <li><a href="property-details.php"><i class="icon-12"></i></a></li>
+                                            <li><a href="property-details.php"><i class="icon-13"></i></a></li>
                                         </ul>
                                     </div>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing sed.</p>
@@ -289,7 +289,7 @@ include_once 'header.php';
                                         <li><i class="icon-15"></i>2 Baths</li>
                                         <li><i class="icon-16"></i>600 Sq Ft</li>
                                     </ul>
-                                    <div class="btn-box"><a href="property-details.html" class="theme-btn btn-two">See Details</a></div>
+                                    <div class="btn-box"><a href="property-details.php" class="theme-btn btn-two">See Details</a></div>
                                 </div>
                             </div>
                         </div>
@@ -308,10 +308,10 @@ include_once 'header.php';
                                             <figure class="author-thumb"><img src="../../src/images/feature/author-3.jpg" alt=""></figure>
                                             <h6>Keira Mel</h6>
                                         </div>
-                                        <div class="buy-btn pull-right"><a href="property-details.html">Sold Out</a></div>
+                                        <div class="buy-btn pull-right"><a href="property-details.php">Sold Out</a></div>
                                     </div>
                                     <div class="title-text">
-                                        <h4><a href="property-details.html">Luxury Villa With Pool</a></h4>
+                                        <h4><a href="property-details.php">Luxury Villa With Pool</a></h4>
                                     </div>
                                     <div class="price-box clearfix">
                                         <div class="price-info pull-left">
@@ -319,8 +319,8 @@ include_once 'header.php';
                                             <h4>$63,000.00</h4>
                                         </div>
                                         <ul class="other-option pull-right clearfix">
-                                            <li><a href="property-details.html"><i class="icon-12"></i></a></li>
-                                            <li><a href="property-details.html"><i class="icon-13"></i></a></li>
+                                            <li><a href="property-details.php"><i class="icon-12"></i></a></li>
+                                            <li><a href="property-details.php"><i class="icon-13"></i></a></li>
                                         </ul>
                                     </div>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing sed.</p>

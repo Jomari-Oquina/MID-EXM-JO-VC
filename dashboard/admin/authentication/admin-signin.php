@@ -1,5 +1,5 @@
 <?php
-include_once __DIR__. '/../../../src/api/api.php';
+//include_once __DIR__. '/../../../src/api/api.php';// file not found
 require_once 'admin-class.php';
 
 $user = new ADMIN();
@@ -40,7 +40,7 @@ if(isset($_POST['btn-signin']))
    $_SESSION['status'] = "Invalid captcha, please try again!";
    $_SESSION['status_code'] = "error";
    $_SESSION['status_timer'] = 40000;
-   header("Location: ../../../../private/admin/");
+   header("Location: ../../../private/admin/.");
    exit;
 }
 }

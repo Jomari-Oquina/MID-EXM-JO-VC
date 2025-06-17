@@ -59,10 +59,10 @@ include_once 'header.php';
                     </div>
                     <div class="right-column pull-right">
                         <ul class="social-links clearfix">
-                            <li><a href="profile"><i class="fas fa-user"></i>&nbsp;&nbsp;<?php echo $user_email ?></a></li>
+                            <li><a href="profile.php"><i class="fas fa-user"></i>&nbsp;&nbsp;<?php echo $user_email ?></a></li>
                         </ul>
                         <div class="sign-box">
-                            <a href="authentication/agent-signout" class="btn-signout"><i class="fa fa-sign-out"></i>Sign out</a>
+                            <a href="authentication/agent-signout.php" class="btn-signout"><i class="fa fa-sign-out"></i>Sign out</a>
                         </div>
                     </div>
                 </div>
@@ -72,7 +72,7 @@ include_once 'header.php';
                 <div class="outer-box">
                     <div class="main-box">
                         <div class="logo-box">
-                            <figure class="logo"><a href="property"><img src="../../src/images/main_logo/<?php echo $config->getSystemLogo() ?>" alt=""></a></figure>
+                            <figure class="logo"><a href="property.php"><img src="../../src/images/main_logo/<?php echo $config->getSystemLogo() ?>" alt=""></a></figure>
                         </div>
                         <div class="menu-area clearfix">
                             <!--Mobile Navigation Toggler-->
@@ -86,8 +86,8 @@ include_once 'header.php';
                                     <ul class="navigation clearfix">
                                         <li class="dropdown current"><a href="#"><span>Property</span></a>
                                             <ul>
-                                                <li><a href="property">Property</a></li>
-                                                <li><a href="property-registration">Property Registration</a></li>
+                                                <li><a href="property.php">Property</a></li>
+                                                <li><a href="property-registration.php">Property Registration</a></li>
                                                 <li><a href="property-reservation?status=?">Property Reservation</a></li>
                                             </ul>
                                         </li> 
@@ -108,7 +108,7 @@ include_once 'header.php';
                 <div class="outer-box">
                     <div class="main-box">
                         <div class="logo-box">
-                            <figure class="logo"><a href="property"><img src="../../src/images/main_logo/<?php echo $config->getSystemLogo() ?>" alt=""></a></figure>
+                            <figure class="logo"><a href="property.php"><img src="../../src/images/main_logo/<?php echo $config->getSystemLogo() ?>" alt=""></a></figure>
                         </div>
                         <div class="menu-area clearfix">
                             <nav class="main-menu clearfix">
@@ -156,7 +156,7 @@ include_once 'header.php';
                 <div class="content-box clearfix">
                     <h1>My Property</h1>
                     <ul class="bread-crumb clearfix">
-                        <li><a href="property">Home</a></li>
+                        <li><a href="property.php">Home</a></li>
                         <li>My Property</li>
                     </ul>
                 </div>
@@ -462,7 +462,7 @@ include_once 'header.php';
                     body: 'property_id=' + encodeURIComponent(propertyId),
                 })
                 .then(response => {
-                    window.location.href = 'property-details';
+                    window.location.href = 'property-details.php';
                 })
                 .catch(error => {
                     console.error('Error:', error);
