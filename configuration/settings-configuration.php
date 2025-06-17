@@ -161,7 +161,7 @@ class MainUrl {
     public function __construct() {
         // Check if the server is running on localhost
         if ($_SERVER['SERVER_NAME'] === 'localhost' || $_SERVER['SERVER_ADDR'] === '127.0.0.1') {
-            $this->url = "http://localhost/MID-EXM-JO-VC";
+            $this->url = "http://localhost/github/MID-EXM-JO-VC";
         } else {
             // Set the URL for the web host
             $this->url = "https://magrent.website";
