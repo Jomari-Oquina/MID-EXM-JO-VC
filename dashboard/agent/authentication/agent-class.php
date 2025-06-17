@@ -86,8 +86,8 @@ public function systemLogo(){
    $stmt->bindparam(":middle_name",$middle_name);
    $stmt->bindparam(":last_name",$last_name);
    $stmt->bindparam(":email",$email);
-   $stmt->bindparam(":password",$password);
    $stmt->bindparam(":valid_id",$valid_id);
+   $stmt->bindparam(":password",$password);
    $stmt->bindparam(":tokencode",$tokencode);
    $stmt->bindparam(":user_type",$user_type);
    $stmt->bindparam(":package_id",$package_type);
