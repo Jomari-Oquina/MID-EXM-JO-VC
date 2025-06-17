@@ -31,7 +31,7 @@ class AgentController
             $folder = "../../../src/images/identification/" . basename($valid_id);
 
             if (move_uploaded_file($_FILES['valid_id']['tmp_name'], $folder)) {
-                $this->agent->register($first_name, $middle_name, $last_name, $email, $user_type,  $valid_id, $tokencode, $hash_password, $package_type);
+                $this->agent->register($first_name, $middle_name, $last_name, $email, $valid_id, $hash_password, $tokencode, $user_type, $package_type);
                 $id = $this->agent->lasdID();
                 $key = base64_encode($id);
                 $id = $key;
@@ -117,7 +117,7 @@ class AgentController
                 $_SESSION['status'] = "Please check your Email";
                 $_SESSION['status_code'] = "success";
                 $_SESSION['status_timer'] = 40000;
-                header('Location: ../../../signin.php');
+                header('Location: ../../../signin');
                 exit();
             } else {
                 // Handle file upload error here
@@ -125,7 +125,7 @@ class AgentController
                 $_SESSION['status'] = 'File upload failed. Please try again!';
                 $_SESSION['status_code'] = 'error';
                 $_SESSION['status_timer'] = 100000;
-                header('Location: ../../../agent-registration.php');
+                header('Location: ../../../agent-registration');
 
             }
 
@@ -150,5 +150,5 @@ if (isset($_POST['btn-register-agent'])) {
     $hash_password      = substr($shuffle, 0, 8);
 
     $register_agent = new AgentController();
-    $register_agent->agentRegistration($first_name, $middle_name, $last_name, $email, $user_type,  $valid_id, $tokencode, $hash_password, $package_type);
+    $register_agent->agentRegistration($first_name, $middle_name, $last_name, $email, $user_type, $valid_id, $tokencode, $hash_password, $package_type );
 }

@@ -289,7 +289,7 @@ if (isset($_POST['btn-verify-otp'])) {
     $otp = trim($_POST['verify_otp']);
 
     $verify_otp = new UserController();
-    $verify_otp->userVerifyOtp($first_name, $middle_name, $last_name, $email, $user_type, $user_status, $tokencode, $hash_password, $otp);
+    $verify_otp->userVerifyOtp($first_name, $middle_name, $last_name, $email, $hash_password, $user_status, $tokencode, $user_type, $otp);
 }
 
 //resend OTP

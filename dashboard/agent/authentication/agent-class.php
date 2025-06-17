@@ -86,8 +86,8 @@ public function systemLogo(){
    $stmt->bindparam(":middle_name",$middle_name);
    $stmt->bindparam(":last_name",$last_name);
    $stmt->bindparam(":email",$email);
-   $stmt->bindparam(":password",$password);
    $stmt->bindparam(":valid_id",$valid_id);
+   $stmt->bindparam(":password",$password);
    $stmt->bindparam(":tokencode",$tokencode);
    $stmt->bindparam(":user_type",$user_type);
    $stmt->bindparam(":package_id",$package_type);
@@ -133,7 +133,7 @@ public function systemLogo(){
       $_SESSION['status'] = "Email or Password is incorrect.";
       $_SESSION['status_code'] = "error";
       $_SESSION['status_timer'] = 1000000;
-      header("Location: ../../../signin");
+      header("Location: ../../../signin.php");
       exit;
      }
     }
@@ -142,7 +142,7 @@ public function systemLogo(){
       $_SESSION['status'] = "Your application as an agent is decline, sorry for inconvenience.";
       $_SESSION['status_code'] = "error";
       $_SESSION['status_timer'] = 10000000;
-     header("Location: ../../../signin");
+     header("Location: ../../../signin.php");
      exit;
     }
     else
@@ -151,7 +151,7 @@ public function systemLogo(){
       $_SESSION['status'] = "Your account is still pending verification. Please be patient as our admin reviews your account.";
       $_SESSION['status_code'] = "error";
       $_SESSION['status_timer'] = 10000000;
-     header("Location: ../../../signin");
+     header("Location: ../../../signin.php");
      exit;
     } 
    }
@@ -161,7 +161,7 @@ public function systemLogo(){
     $_SESSION['status'] = "No account found or your account has been remove!";
     $_SESSION['status_code'] = "error";
     $_SESSION['status_timer'] = 10000000;
-   header("Location: ../../../signin");
+   header("Location: ../../../signin.php");
     exit;
    }  
   }
@@ -193,7 +193,7 @@ public function systemLogo(){
   $_SESSION['status'] = 'Thank you for using MAGRENT';
   $_SESSION['status_code'] = 'success';
   $_SESSION['status_timer'] = 40000;    
-  header('Location: ../../../signin');
+  header('Location: ../../../signin.php');
  }
 
  function send_mail($email,$message,$subject,$smtp_email,$smtp_password,$system_name)
